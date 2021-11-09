@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo h1{
+    color: blue;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+
+.Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body_section{
+    display: inline;
+    /*background-color:black ;*/
+}
+.body_section p{
+    margin-left: 10px;
+    color: blue;
+    
+}
+.body_section input{
+    display: inline-block;
+    margin: 10px 10px;
+    border: 0;
+    box-shadow:2px 4px 10px #3a3a3a5b;
+}
+    
+.Name_section p input{
+    width: 600px;
+    height: 30px;
+}
+
+.depart_section input{
+    width: 600px;
+    height: 30px;   
+} 
+.Description input{
+    width: 600px;
+    height: 200px;
+
+}
+.Description p{
+    display: flex;
+    padding: 10px;
+    margin: 10px 10px;
+    
+}
+.yes_no input {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+.fav_section p{
+    margin: 10px 10px;
+}
+
+.dropdown p, input, select, option{
+    margin: 10px 10px;
+}
+.send input, button{
+    display: inline;
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    background:rgb(196, 193, 193);
+    color:blue;
+    margin-left: 10px;
+    text-align: center;
+    border: 0;
+    box-shadow:2px 4px 10px #3a3a3a5b;
+    margin: 30px 400px;
+    
+    
+}
+
+button:hover{
+    cursor: pointer;
+}

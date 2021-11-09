@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/Style.css">
+    <title>Employee Interest Survey</title>
+</head>
+<nav>
+<div class="logo">
+    <h1>EMPLOYEE INTEREST SURVEY FORM</h1><br></br>
+</div>
+</nav>
+    <!--form_section | Text_section-->
+<body class="body_section">
+    <form action="" method="post">
+    
+    <div class="Name_section">
+        <p>Enter Your Name<input type="text" name="Full Name"></input></p>
+    </div>
+       
+    <div class="depart_section">
+        <p>Enter Your Department<input type="text" name="Choose Department"></input></p>
+    </div>
+       
+    <div class="Description">
+        <p>Tell us a little about yourself<input type="text" name="About yourself"></input></p>
+    </div>
+
+    <!--yes | no section-->
+    <div class="yes_no">
+        <p>
+             <label for="yes_no_radio">Do you exercise at home?</label>
+        </p>
+      <p>
+      <input type="radio" name="yes_no">Yes</input>
+      </p>
+      <p>
+      <input type="radio" name="yes_no">No</input>
+      </p>
+    </div>  
+
+    <!--Favorites-->
+    <div class="fav_section">
+        <p>How do you like to read about your favorite topics?</p>
+    </div>  
+
+    <!-- About_checkbox-->
+    <div class="checkbox">
+        <p>
+        <input type="checkbox" name="select books">Books</input>
+        <input type="checkbox" name="select online resources">Online Resources</input>
+        <input type="checkbox" name="select phone apps">Phone Apps</input>
+        <input type="checkbox" name="select magazines">Magazines</input>
+        </p>
+    </div>
+
+    <!--Dropdown_section-->
+    <div class="dropdown">
+        <p>
+        <label for="Categories of Movies">What genre of Movies do you like?</label>
+        <select name="Movies" id="Preferred Movie">
+        <option value="Action">Action</option>
+        <option value="Comedy">Comedy</option>
+        <option value="Drama">Drama</option>
+        <option value="Romance">Romance</option>
+    </select>
+        </p>
+    </div>
+
+    <!--Send infor-->
+    <div class="send">
+        <p>
+        <button type="submit">Submit</button>
+        </p>
+    </div>
+    </form>
+    </body>
+</html>
